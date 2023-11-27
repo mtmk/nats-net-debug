@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <Description>mtmk unofficial debug</Description>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\mtmk.debug.NATS.Core\mtmk.debug.NATS.Core.csproj" />
+      <ProjectReference Include="..\mtmk.debug.NATS.JetStream\mtmk.debug.NATS.JetStream.csproj" />
+    </ItemGroup>
+
+</Project>
