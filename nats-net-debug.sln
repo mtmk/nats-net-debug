@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mtmk.debug.NATS.JetStream",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mtmk.debug.NATS", "src\mtmk.debug.NATS\mtmk.debug.NATS.csproj", "{1385713D-B44C-4BC1-843F-0C74277EFD65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E95E276D-5062-4287-973E-DC089B52FC2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{1385713D-B44C-4BC1-843F-0C74277EFD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1385713D-B44C-4BC1-843F-0C74277EFD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1385713D-B44C-4BC1-843F-0C74277EFD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95E276D-5062-4287-973E-DC089B52FC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95E276D-5062-4287-973E-DC089B52FC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95E276D-5062-4287-973E-DC089B52FC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95E276D-5062-4287-973E-DC089B52FC2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

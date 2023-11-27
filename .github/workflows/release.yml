@@ -5,18 +5,10 @@ on:
     branches:
       - master
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
   nuget:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    name: dotnet
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -30,7 +22,6 @@ jobs:
           if [ "$(git ls-remote origin "refs/tags/$ref_name" | wc -l)" = "1" ]; then
             create=false
           fi
-
           echo "version=$version" | tee -a "$GITHUB_OUTPUT"
           echo "ref-name=$ref_name" | tee -a "$GITHUB_OUTPUT"
           echo "create=$create" | tee -a "$GITHUB_OUTPUT"
